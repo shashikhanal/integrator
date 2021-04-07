@@ -21,13 +21,13 @@ Clone the repository and install the dependencies.
 
 Make a copy of `.env.example` as `.env` and update your application details.
 
-    $ copy .env.example .env
+    $ cp .env.example .env
 *Start MongoDB service and create new database if you have to.*
 
 Create the log directory and log file
 
     $ mkdir logs
-    $ touch logs.txt
+    $ touch logs/logs.txt
 
 ## Run
 ```

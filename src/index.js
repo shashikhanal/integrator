@@ -36,10 +36,10 @@ if (result.error) {
     process.exit(0);
 }
 
-// UNCOMMENT to this runs cron job every second, used for testing
-// const cronRuntime = ''*/1 * * * * *''
-// this runs cron job for all days in the week
-const cronRuntime = '* * * * * 0,1,2,3,4,5,6'
+// UNCOMMENT to this runs cron job every minute, used for testing
+// const cronRuntime = '*/1 * * * *'
+// this runs cron job for all days in the week at 1000 hrs
+const cronRuntime = '* 10 * * 0,1,2,3,4,5,6'
 result = await emailService.scheduleEmails(cronRuntime);
 
 console.log(result);
