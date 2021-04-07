@@ -2,8 +2,6 @@
 
 > An integration tool that loads data from a CSV file, schedules some email communications, and then executes automated tests to ensure all data and logic was executed correctly.
 
-## 
-
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/dist/v14.16.0/) - 14.16.0 or above
